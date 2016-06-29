@@ -1,4 +1,5 @@
 var React = require('react');
+var Contents = require('../configs/contents.js');
 
 module.exports = React.createClass({
   render: function() {
@@ -11,7 +12,7 @@ module.exports = React.createClass({
         </div>
         <div className="media-body">
           <h4 className="media-heading">From the pastor's desk:</h4>
-            <p>On behalf of our church family, I would like to extend a heartfelt thank you for visiting us. Our prayer is that you feel at home as we worship God together.</p>
+            <p>{Contents.from_the_pastors_desk}</p>
         </div>
       </div>
     ); 
