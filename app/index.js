@@ -1,10 +1,14 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-
+var ServiceTime = require('./components/ServiceTime.js');
+var PastorsDesk = require('./components/PastorsDesk.js');
 var App = React.createClass({
   render: function(){
     return (
       <div>
+        <div className="jumbotron">
+          <h1>This is the church website</h1>
+        </div>
         <nav className="navbar navbar-inverse navbar-fixed-top" role="navigation">
           <div className="container">
             <div className="navbar-header">
@@ -29,10 +33,9 @@ var App = React.createClass({
             </div>
           </div>
         </nav>
-        <div className="jumbotron">
-          <h1>This is the church website</h1>
-        </div>
         <div className="container">
+          <ServiceTime />
+          <PastorsDesk />
         </div>
         <footer id="contact" className="row-footer">
         </footer>
