@@ -1,0 +1,19 @@
+{
+  "name": "church_website",
+  "version": "1.0.0",
+  "description": "Providence Bible Church Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shirley-wang/church_website.git"
+  },
+  "author": "Shirley Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shirley-wang/church_website/issues"
+  },
+  "homepage": "https://github.com/shirley-wang/church_website#readme"
+}
