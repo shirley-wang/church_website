@@ -7,10 +7,10 @@ module.exports = React.createClass({
 				<hr />    
 				<div className="row">
 						<div className="col-lg-12">
-							<div className="span8">
-								<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/place/709+Lakewood+Dr,+Sunnyvale,+CA+94089/@37.3952216,-122.0077034,17z/data=!3m1!4b1!4m5!3m4!1s0x808fb631ed62504d:0xc6307ea5bfc90997!8m2!3d37.3952174!4d-122.0055147"></iframe>
+							<div className="col-md-5">
+								<iframe width="400" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.7720961242494!2d-122.00770338433749!3d37.39522164167771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb631ed62504d%3A0xc6307ea5bfc90997!2s709+Lakewood+Dr%2C+Sunnyvale%2C+CA+94089!5e0!3m2!1sen!2sus!4v1467349579891"></iframe>
 							</div>
-							<div className="col-md-3">
+							<div className="col-md-2">
 								<h5>CONNECT WITH US</h5>
 								<ul className="nav nav-pills nav-stacked">
 									<p>709 Lakewood Drive</p>
@@ -20,7 +20,7 @@ module.exports = React.createClass({
 									<p>(408) 734-2297</p>
 								</ul>
 							</div>
-							<div className="col-md-3">
+							<div className="col-md-2">
 								<h5>WELCOME</h5>
 								<ul className="nav nav-pills nav-stacked">
 									<li><a href="#">Core Beliefs</a></li>
@@ -28,7 +28,7 @@ module.exports = React.createClass({
 									<li><a href="#">Rides to Church</a></li>
 								</ul>
 							</div>
-							<div className="col-md-3">
+							<div className="col-md-2">
 								<h5>RESOURCES</h5>
 								<ul className="nav nav-pills nav-stacked">
 									<li><a href="#">Sermons</a></li>
