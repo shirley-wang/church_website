@@ -9,7 +9,7 @@ module.exports = [
   {
     title: 'His Word is Sweeter Than Honey – Psalm 19',
     audioLink: 'https://s3-us-west-1.amazonaws.com/pbc-sermons/160619+His+Word+is+Sweeter+Than+Honey.mp3',
-    videoLink: 'https://youtu.be/8i9sGJIMsmw',
+    videoLink: 'https://www.youtube.com/embed/8i9sGJIMsmw',
     speaker: 'Steve Mixsell',
     date: 'June 19, 2016'
   },
