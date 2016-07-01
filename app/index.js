@@ -2,8 +2,11 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var ServiceTime = require('./components/serviceTime.js');
 var PastorsDesk = require('./components/pastorsDesk.js');
+
 var NavBar = require('./components/navBar.js');
 var Sermons = require('./components/sermons.js');
+var Footer = require('./components/Footer.js');
+
 var App = React.createClass({
   render: function(){
     return (
@@ -19,6 +22,7 @@ var App = React.createClass({
           <Sermons />
         </div>
         <footer id="contact" className="row-footer">
+          <Footer />
         </footer>
       </div>
     );
