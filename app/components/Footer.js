@@ -7,7 +7,7 @@ module.exports = React.createClass({
 				<hr />    
 				<div className="row">
 						<div className="col-lg-12">
-							<div className="col-md-5">
+							<div className="col-md-6">
 								<iframe width="400" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.7720961242494!2d-122.00770338433749!3d37.39522164167771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb631ed62504d%3A0xc6307ea5bfc90997!2s709+Lakewood+Dr%2C+Sunnyvale%2C+CA+94089!5e0!3m2!1sen!2sus!4v1467349579891"></iframe>							
 							</div>
 							<div className="col-md-2">
