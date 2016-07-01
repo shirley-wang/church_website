@@ -7,6 +7,7 @@ var NavBar = require('./components/navBar.js');
 var Sermons = require('./components/sermons.js');
 var Footer = require('./components/Footer.js');
 
+
 var App = React.createClass({
   render: function(){
     return (
